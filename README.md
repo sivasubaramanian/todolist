@@ -24,7 +24,7 @@ CSS: Styles the user interface, creating an attractive and responsive layout. It
 
 JavaScript: Implements the interactive features of the ToDo list. It handles user input, updates the DOM dynamically, and manages task addition, completion, and deletion functionalities.
 
-Learning Outcomes:
+# Learning Outcomes:
 
 HTML Structure: Students learn how to structure a basic HTML document, create input fields, buttons, and lists to display tasks.
 
