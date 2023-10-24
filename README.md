@@ -1,4 +1,4 @@
-# todolist
+# todolist-javascript
 
 # Description:
 
