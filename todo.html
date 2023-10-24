@@ -1,0 +1,45 @@
+<html> 
+    <body>
+    <style>
+        h1{
+            background-color:  grey;
+            width: 1530px;
+            height: 50px;
+            transition: 5s;
+        }
+        
+        body{
+            background-color:darkgray;
+        }
+            
+
+        
+    </style>
+    <center>
+        <h1 id="i1">To Do List</h1>
+    <input id="ind" required><br><br>
+    <button onclick="add()">Add</button>
+    <div id="di">
+        <ul>
+            
+        </ul>
+        
+    </div>
+    <script>
+        var a=document.getElementById("in")
+        var d=document.getElementById("di")
+        function add(){
+            var h=document.createElement("li")
+            h.innerHTML=ind.value +  "           <button onclick='de(event)'>delete</button>"
+
+            d.append(h)
+
+        }
+        function de(event){
+                event.target.parentNode.remove()
+
+             }
+    </script>
+    </body>
+    </center>
+</html>
